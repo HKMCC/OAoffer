@@ -1,0 +1,168 @@
+#server:
+#  # 端口
+#  port: 8081
+#
+#spring:
+#  # 数据源配置
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/yeb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+#    username: root
+#    password: root
+#    hikari:
+#      # 连接池名
+#      pool-name: DateHikariCP
+#      # 最小空闲连接数
+#      minimum-idle: 5
+#      # 空闲连接存活最大时间，默认600000（10分钟）
+#      idle-timeout: 180000
+#      # 最大连接数 (10)
+#      maximum-pool-size: 10
+#  auto-commit: true
+#    # 连接最大存活时间，0表示永久，默认为1800000（30分钟）
+#    max-lifetime: 1800000
+#    # 连接超时时间， 默认30000 (30秒)
+#    connection-timeout: 30000
+#    # 测试连接是否可用的查询语句
+#    connection-test-query: 1
+#
+#  # Mybatis-plus配置
+#  mybatis-plus:
+#    # 配置Mapper映射文件
+#    mapper-locations: classpath*:/mapper/*Mapper.xml
+#    # 配置Mybatis数据返回类型别名(默认别名是类名)
+#    type-aliases-package: com.hcc.pojo
+#    configuration:
+#      # 自动驼峰命名
+#      map-underscore-to-camel-case: false
+#  ## Mybatis SQL 打印(方法接口所在的包，不是Mapper.xml所在的包)
+#  logging:
+#    level:
+#      com.jzq.server.mapper: debug
+#
+#      jwt:
+#        # JWT存储的请求头
+#        tokenHeader: Authorization
+#        # JWT 解密加密使用的密钥
+#        secret: hkmcc
+#        # JWT的超期限时间（30*60*24）
+#        expiration: 604800
+#        # JWT 负载中拿到开头
+#        tokenHead: Bearer
+
+server:
+  # 端口
+  port: 8081
+
+spring:
+  mvc:
+    pathmatch:
+      #springboot2.6路径匹配规则从AntPathMatcher更改为PathPatternParser
+      #swagger2就不能用了,所以切换为原来的
+      matching-strategy: ant_path_matcher
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yeb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    hikari:
+      # 连接池名
+      pool-name: DateHikariCP
+      # 最小空闲连接数
+      minimum-idle: 5
+      # 空闲连接存活最大时间，默认600000（10分钟）
+      idle-timeout: 180000
+      # 最大连接数 (10)
+      maximum-pool-size: 10
+      # 从连接池返回的连接自动提交
+      auto-commit: true
+      # 连接最大存活时间，0表示永久，默认为1800000（30分钟）
+      max-lifetime: 1800000
+      # 连接超时时间， 默认30000 (30秒)
+      connection-timeout: 30000
+      # 测试连接是否可用的查询语句
+      # connection-test-query: SELECT 1
+
+  # Redis配置
+  redis:
+    # 超时时间
+    timeout: 10000ms
+    # 服务器地址
+    host: 175.178.166.93
+    # 端口号
+    port: 6379
+    # 数据库(第几个)
+    database: 0
+    # 密码 (没有密码可以不设置)
+    password: zx990416
+    lettuce:
+      pool:
+        # 最大连接数（默认8）
+        max-active: 1024
+        # 最大连接阻塞时间，默认-1
+        max-wait: 10000ms
+        # 最大空闲连接
+        max-idle: 200
+        # 最小空闲连接
+        min-idle: 5
+
+  # rabbitmq配置
+  rabbitmq:
+    # 用户名
+    username: admin
+    # 密码
+    password: zx990416
+    # 服务器地址
+    host: 175.178.166.93
+    # 端口
+    port: 5673
+    # 消息确认回调
+    publisher-confirm-type: correlated
+    # 消息失败回调
+    publisher-returns: true
+
+
+  #    listener:
+#      simple:
+#        #开启手动确认
+#        acknowledge-mode: manual
+
+
+
+  main:
+    # 当遇到同名时，是否覆盖注册
+    allow-bean-definition-overriding: true
+# Mybatis-plus配置
+mybatis-plus:
+  # 配置Mapper映射文件
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  # 配置Mybatis数据返回类型别名(默认别名是类名)
+  type-aliases-package: com.hcc.pojo
+  configuration:
+    # 自动驼峰命名
+    map-underscore-to-camel-case: false
+
+### Mybatis SQL 打印(方法接口所在的包，不是Mapper.xml所在的包)
+#logging:
+#  level:
+#    com.jzq.server.mapper: debug
+
+
+
+# JWT
+jwt:
+  # JWT存储的请求头
+  tokenHeader: Authorization
+  # JWT 解密加密使用的密钥
+  secret: hkmcc
+  # JWT的超期限时间（30*60*24）
+  expiration: 604800
+  # JWT 负载中拿到开头
+  tokenHead: Bearer
+
+#spring.main.allow-circular-references: true
+
+
+
+

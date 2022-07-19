@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoGenerator/AutoGenerator.iml" filepath="$PROJECT_DIR$/AutoGenerator/AutoGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yeb-mail/yeb-mail.iml" filepath="$PROJECT_DIR$/yeb-mail/yeb-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yeb-server/yeb-server.iml" filepath="$PROJECT_DIR$/yeb-server/yeb-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yebback.iml" filepath="$PROJECT_DIR$/yebback.iml" />
+    </modules>
+  </component>
+</project>

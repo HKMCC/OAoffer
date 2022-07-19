@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GrepConsole">
+    <option name="pinnedGrepConsolesState">
+      <PinnedGrepConsolesState>
+        <option name="map">
+          <map>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="SpringBoot.svg')" />
+                  <option name="name" value="YebApplication" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins />
+              </value>
+            </entry>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="name" value="Run" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins>
+                  <option name="pins">
+                    <list>
+                      <Pin>
+                        <option name="consoleUUID" value="156d72d5-4e3d-46d5-a43b-8173f0e26d92" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="无法将类 org.springframework.security.config.annotation.web.builders.HttpSecurity中的方法 authorizeHttpRequests应用到给定类型;" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                    </list>
+                  </option>
+                </Pins>
+              </value>
+            </entry>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="name" value="Build" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins>
+                  <option name="pins">
+                    <list>
+                      <Pin>
+                        <option name="consoleUUID" value="fc2b9df1-b5c7-4e9d-9083-d8f23fd4f88c" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="Cannot resolve org.csource:fastdfs-client-java:1.29-SNAPSHOT" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="2857c083-66c8-4c1e-9bdc-0e7e2089355d" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="annot resolve org.csource:fastdfs-client-java:1.29-SNAPSHOT" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                        <option name="parentConsoleUUID" value="fc2b9df1-b5c7-4e9d-9083-d8f23fd4f88c" />
+                      </Pin>
+                    </list>
+                  </option>
+                </Pins>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </PinnedGrepConsolesState>
+    </option>
+  </component>
+</project>

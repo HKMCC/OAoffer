@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yeb-mail" />
+        <module name="yeb-server" />
+        <module name="AutoGenerator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoGenerator" target="1.8" />
+      <module name="yeb-mail" target="1.8" />
+      <module name="yeb-server" target="8" />
+      <module name="yebback" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AutoGenerator" options="-parameters" />
+      <module name="yeb-mail" options="-parameters" />
+      <module name="yeb-server" options="-parameters" />
+      <module name="yebback" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fastdfs-client-java-1.29-SNAPSHOT (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/yeb-server/src/main/resources/fastdfs-client-java-1.29-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

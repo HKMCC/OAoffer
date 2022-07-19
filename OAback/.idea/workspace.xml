@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="059f1f4c-576a-41c1-9596-51d23dacc9f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\javaspring\Runtime\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../javaspring/Runtime/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="F:\javaspring\Runtime\apache-maven-3.6.0\conf\settings-cn.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28O1T1DaPlLQBYHvfqQzzocZSN6" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32592592" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-server\src\main\resources" />
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-server\src\main\java\com\hcc\utils" />
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-mail\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-server\src\main\resources\mapper" />
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-server\src\main\java\com\hcc\server\impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-mail\src\main\resources\config" />
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-mail\src\main\java\com\hcc\shiyan" />
+      <recent name="C:\Users\Administrator\Desktop\yunEban\yebback\yeb-server\src\main\resources\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hcc" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hcc.mail" />
+      <recent name="com.hcc.exception" />
+      <recent name="com.hcc.config" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file  -Dfile=C:\Users\Administrator\Desktop\yunEban\fastdfs-client-java-master\target\fastdfs-client-java-1.29-SNAPSHOT.jar  -DgroupId=org.csource  -DartifactId=fastdfs-client-java  -Dversion=1.29-SNAPSHOT  -Dpackaging=jar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YebApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hcc.autoGenerator.CodeGenerator" />
+      <module name="AutoGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hcc.autoGenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoGenerator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hcc" />
+      <option name="MAIN_CLASS_NAME" value="com.hcc.AppTest" />
+      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yeb-mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hcc.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hcc.mail.MailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yeb-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hcc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hcc.YebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.YebApplication" />
+        <item itemvalue="Spring Boot.MailApplication" />
+        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="059f1f4c-576a-41c1-9596-51d23dacc9f7" name="Default Changelist" comment="" />
+      <created>1651072829674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651072829674</updated>
+      <workItem from="1651072831170" duration="3592000" />
+      <workItem from="1651154022460" duration="22179000" />
+      <workItem from="1651217124138" duration="16677000" />
+      <workItem from="1651298790745" duration="25158000" />
+      <workItem from="1651378765902" duration="16703000" />
+      <workItem from="1651481018480" duration="3426000" />
+      <workItem from="1651562641766" duration="2407000" />
+      <workItem from="1651565376904" duration="1837000" />
+      <workItem from="1651567512456" duration="11119000" />
+      <workItem from="1651644954394" duration="15853000" />
+      <workItem from="1651735516666" duration="12539000" />
+      <workItem from="1651844265802" duration="3111000" />
+      <workItem from="1652100363321" duration="2819000" />
+      <workItem from="1652190152276" duration="3361000" />
+      <workItem from="1652193650125" duration="6594000" />
+      <workItem from="1652277147791" duration="8409000" />
+      <workItem from="1652324470846" duration="17847000" />
+      <workItem from="1652508479996" duration="3128000" />
+      <workItem from="1652553669811" duration="2900000" />
+      <workItem from="1652599844940" duration="5258000" />
+      <workItem from="1652696883928" duration="6732000" />
+      <workItem from="1652767391061" duration="8107000" />
+      <workItem from="1652864244379" duration="7735000" />
+      <workItem from="1652925951636" duration="4441000" />
+      <workItem from="1652945434994" duration="4422000" />
+      <workItem from="1653056675632" duration="4298000" />
+      <workItem from="1653114762226" duration="1978000" />
+      <workItem from="1653199066984" duration="2624000" />
+      <workItem from="1655993705052" duration="829000" />
+      <workItem from="1657910324671" duration="418000" />
+      <workItem from="1658044063505" duration="935000" />
+      <workItem from="1658214805795" duration="695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.hcc.pojo.Employee" memberName="department" />
+        <PinnedItemInfo parentTag="com.hcc.service.impl.AdminServiceImpl" memberName="entityClass" />
+        <PinnedItemInfo parentTag="java.sql.SQLIntegrityConstraintViolationException" memberName="detailMessage" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((AdminServiceImpl)this).entityClass" language="JAVA" custom="com.hcc.service.impl.AdminServiceImpl" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
